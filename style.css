@@ -3,4 +3,42 @@ body{
 }
 p.inset{
     border-style: inset;
+    border-width: medium;
+    border-color: blueviolet red gray green;
+    border
 }
+p.outset{
+    border-style: groove;
+    border-width: 20px 5px;
+    border-color: black;
+}
+
+p.three{
+    border: 5px solid black ;
+    border-radius: 100px;
+}
+
+a{
+    color: red;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  
